@@ -148,7 +148,10 @@ h1 .container {
 .project-list .list {
   margin-right: 30px;
   margin-bottom: 30px;
+}
+.project-discription {
   border: 1px solid #eeeeee;
+  padding-top: 20px;
 }
 .project-list .list:nth-child(3n) {
   margin-right: 0;
@@ -181,9 +184,9 @@ button:focus {
 img {
   display: block;
 }
-.project img {
-  margin-bottom: 20px;
-}
+/* .project img {
+  margin-bottom: 20px; */
+
 .project-name {
   display: block;
   margin-left: 24px;
