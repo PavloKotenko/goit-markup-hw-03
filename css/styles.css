@@ -130,13 +130,12 @@ main {
 
 .portfolio-list {
   display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
 }
-.portfolio-list .list {
-  justify-content: center;
-}
+
 .portfolio-list .list:not(:last-child) {
   margin-right: 8px;
 }
